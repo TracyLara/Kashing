@@ -1,16 +1,26 @@
-# React + Vite
+# Kashing – Profit Calculator for Philippine Small Businesses
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kashing helps small business owners in the Philippines understand their numbers without an accounting degree. It works on any device and can be installed like an app (PWA).
 
-Currently, two official plugins are available:
+**Live demo:** https://YOUR-SITE.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- 9 calculators: average revenue, average ticket size, break-even point, working capital and current ratio, operating cost, gross profit and margin, operating profit and margin, net profit and margin, and ROI
+- Philippine context: SSS, PhilHealth, and Pag-IBIG employer contributions, LGU taxes, and BIR tax options (8% flat vs graduated plus 3% percentage tax)
+- Plain-language guide with pop-up explanations of every financial term
+- Saved history on the device
+- Light and dark mode, responsive layout, installable as an app (PWA)
 
-## React Compiler
+## Built with
+React, JavaScript, Vite, React Router, lucide-react, vite-plugin-pwa
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run it locally
+1. Install Node.js (LTS)
+2. `npm install`
+3. `npm run dev`
+4. Open http://localhost:5173
 
-## Expanding the ESLint configuration
+## Disclaimer
+Estimates for learning and planning only. Not tax, legal, or accounting advice. Confirm with the BIR or an accountant before filing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built by YOUR NAME.
